@@ -1,0 +1,164 @@
+body{
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-size: 1720px 960px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p{
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#loginspace{
+	position:absolute;
+    left:35%;
+    top:29%;
+	background-color: rgba(24, 58, 67, 0.67);	
+	border-radius: 30px;
+	border: white;
+	background-repeat: no-repeat;
+}
+
+.avatar{
+	position: absolute;
+	left: calc(39.5% - 50px);
+	top: calc(-23.3% - 50px);
+}
+
+h1{
+	color: #33ccff;
+	top: 45%;
+	left: 50%;
+}
+
+.login{
+	border-bottom: 1px solid #fff;
+}
+
+.username{
+	width: 300px;
+	height: 45px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	padding-left: 10px;
+}
+
+.email{
+	width: 300px;
+	height: 45px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	padding-left: 10px;
+}
+
+.password{
+	width: 300px;
+	height: 45px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	padding-left: 10px;
+}
+
+.submit{
+	display:inline-block;
+	padding:4.8px 38.4px;
+	margin:0 3.2px 3.2px 0;
+	border:5.12px solid rgba(255,255,255,0);
+	border-radius:32px;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-size: 18px;
+	font-weight:300;
+	color: white;
+	text-align:center;
+	transition: all 0.2s;
+	background-color: blue;
+	margin-top: 30px;
+	margin-left: 106px;
+	margin-bottom: 20px;
+	height: 45px;
+	width: 250px;
+	cursor: pointer;
+}
+
+.submit2{
+	display:inline-block;
+	border:5.12px solid rgba(255,255,255,0);
+	border-radius:32px;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-size: 18px;
+	font-weight:300;
+	color: white;
+	text-align:center;
+	transition: all 0.2s;
+	background-color: blue;
+	margin-left: 106px;
+	margin-bottom: 20px;
+	height: 45px;
+	width: 250px;
+	cursor: pointer;
+}
+
+.passes{
+	margin-top: 50px;
+}
+
+.user{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.mail{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.pass{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.submit:hover{
+	border-color: rgba(255,255,255,0.50);
+}
+
+@media all and (max-width:30em){
+.submit{
+	display:block;
+ }
+}
+
+.submit2:hover{
+	border-color: rgba(255,255,255,0.50);
+}
+
+@media all and (max-width:30em){
+.submit2{
+	display:block;
+ }
+}
+
